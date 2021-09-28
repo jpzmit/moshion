@@ -1,0 +1,245 @@
+/* open sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center ;
+    padding-top: 20px;
+    margin:0;
+    max-width: 1920px;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141416;
+}
+.brand{
+    padding-top: 20px;
+    padding-left:40px;
+}
+
+.topnav{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding-right:40px;
+    padding-top:20px;
+}
+
+.topnav .nav-link{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right: 50px;
+    color:white;
+    font-family:'Open Sans';
+    font-size: 15px;
+}
+.preorder{
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+/* jt container */
+.jt-container {
+	height:500px; 
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color:#141416;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.jt-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.jt-container p{
+    font-family: 'open sans', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    max-width: 1000px;
+    margin-top:10px;
+}
+.jt-button{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    border-style: solid;
+    border-color: #FD6262;
+    border-radius: 30px;
+    background-color: #141416;
+    padding:10px 20px 10px 20px;
+    color:#FD6262;
+    margin-top: 15px;
+}
+
+/* produc features */
+.feature-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #141416;
+    color:white;
+    height:1000px;
+    padding-top:200px;
+    padding-bottom: 200px;
+}
+.feature-1, .feature-2{
+    display: flex;
+    justify-content: center;
+}
+.feature-1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #3e4348;
+    width: 500px;
+    height: 600px;
+    padding:20px;
+    font-family:'poppins';
+}
+
+.feature-1-left-1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 400px;
+}
+
+.feature-1-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #3e4348;
+    width: 500px;
+    height: 600px;
+    padding:20px;
+    font-family:'poppins';
+}
+
+.feature-1-right-1, .feature-1-right-2,.feature-1-right-3,.feature-1-right-4{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    max-width: 500px;
+}
+
+.feature-2-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #3e4348;
+    width: 500px;
+    height: 600px;
+    padding:20px;
+    font-family:'poppins';
+}
+.feature-2-right{
+    border:1px solid #3e4348;
+    width: 500px;
+    height: 600px;
+    padding:20px;
+    font-family:'poppins';
+}
+.feature-2-bb1,.feature-2-bb2,.feature-2-bb3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    border: 1px solid #3e4348;
+    background-color: #1a1c1e;
+    border-radius: 10px;
+    position: relative;
+}
+.feature-2-bb1{
+    left:0px;
+    top:0px;
+}
+.feature-2-bb2{
+    left:50px;
+    top:5px;
+}
+.feature-2-bb3{
+    left:70px;
+    top:-60px;
+}
+.feature-2-bb1 p,.feature-2-bb2 p,.feature-2-bb3 p{
+    padding:15px;
+    color:lightslategray;
+    margin:0;
+}
+.feature-2-bb1 .bb1-header,.feature-2-bb2 .bb2-header,.feature-2-bb3 .bb3-header{
+    color:palevioletred;
+    font-style: italic;
+}
+
+/* end of product features*/
+  
+/* team section */
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #141416;
+    font-family: 'open sans';
+    padding-bottom: 100px;
+    padding-top:150px;
+}
+.team-h1{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: 'open sans';
+
+}
+.team-roster{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    text-align: center;
+
+}
+
+
+.KTphoto,.HOphoto,.JZphoto{
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* footer start */
+.footer{
+    background-color: #141416;
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'open sans';
+    font-size: 10px;
+    color:white;
+}
