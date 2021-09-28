@@ -1,5 +1,5 @@
 /* open sans*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
 /*poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
@@ -60,6 +60,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:-5px;
   }
 
 .jt-container h1{
@@ -96,9 +97,9 @@ body{
     justify-content: center;
     background-color: #141416;
     color:white;
-    height:1000px;
-    padding-top:200px;
+    padding-top:50px;
     padding-bottom: 200px;
+    margin-top:-5px;
 }
 .feature-1, .feature-2{
     display: flex;
@@ -114,6 +115,8 @@ body{
     height: 600px;
     padding:20px;
     font-family:'poppins';
+    background-image: url('img/reddots.png');
+    background-position: center;
 }
 
 .feature-1-left-1{
@@ -127,38 +130,62 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border:1px solid #3e4348;
-    width: 500px;
+    border:1px transparent #3e4348;
+    width: 400px;
     height: 600px;
-    padding:20px;
+    padding:20px 60px 20px 60px;
     font-family:'poppins';
 }
 
 .feature-1-right-1, .feature-1-right-2,.feature-1-right-3,.feature-1-right-4{
     font-family: 'Poppins', sans-serif;
     font-weight:300;
-    font-size:20px;
-    max-width: 500px;
+    font-size:18px;
+    max-width: 400px;
 }
+
+/**** start of pd pics ***/
+.pd-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding:100px 10px 100px 10px;
+}
+.pd3{
+    margin-top:-150px;
+}
+
+/**** end of pd pics ***/
 
 .feature-2-left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border:1px solid #3e4348;
     width: 500px;
     height: 600px;
     padding:20px;
     font-family:'poppins';
 }
+.feature-2-left-1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.feature-2-left-2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    font-size:18px;
+}
 .feature-2-right{
-    border:1px solid #3e4348;
+    border:1px transparent #3e4348;
     width: 500px;
     height: 600px;
     padding:20px;
     font-family:'poppins';
+    align-items: center;
 }
 .feature-2-bb1,.feature-2-bb2,.feature-2-bb3{
     display: flex;
@@ -171,25 +198,27 @@ body{
     position: relative;
 }
 .feature-2-bb1{
-    left:0px;
-    top:0px;
+    left:20px;
+    top:30px;
 }
 .feature-2-bb2{
-    left:50px;
-    top:5px;
+    left:20px;
+    top:60px;
 }
 .feature-2-bb3{
-    left:70px;
-    top:-60px;
+    left:240px;
+    top:-350px;
 }
 .feature-2-bb1 p,.feature-2-bb2 p,.feature-2-bb3 p{
     padding:15px;
     color:lightslategray;
     margin:0;
+    font-size: 12px;
 }
 .feature-2-bb1 .bb1-header,.feature-2-bb2 .bb2-header,.feature-2-bb3 .bb3-header{
     color:palevioletred;
     font-style: italic;
+    font-size:18px;
 }
 
 /* end of product features*/
@@ -202,13 +231,14 @@ body{
     background-color: #141416;
     font-family: 'open sans';
     padding-bottom: 100px;
-    padding-top:150px;
+    padding-top:20px;
 }
 .team-h1{
     display: flex;
     justify-content: center;
     color:white;
     font-family: 'open sans';
+    font-weight: 600;
 
 }
 .team-roster{
@@ -216,9 +246,7 @@ body{
     justify-content: space-around;
     color:white;
     text-align: center;
-
 }
-
 
 .KTphoto,.HOphoto,.JZphoto{
     border-radius: 50%;
