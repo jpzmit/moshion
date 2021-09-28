@@ -110,13 +110,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:1px solid #3e4348;
+    border:1px transparent #3e4348;
     width: 500px;
     height: 600px;
     padding:20px;
     font-family:'poppins';
     background-image: url('img/reddots.png');
     background-position: center;
+
+    box-shadow:inset 0px 0px 10px 10px #141416;
 }
 
 .feature-1-left-1{
