@@ -49,7 +49,7 @@ body{
 
 /* jt container */
 .jt-container {
-	height:500px; 
+	height:450px; 
     max-width: 1920px;
     width: 100%;
     position: relative;
@@ -91,126 +91,114 @@ body{
 }
 
 /* produc features */
-.feature-table{
+.feature-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #141416;
     color:white;
-    padding-top:50px;
+    padding-top:0;
     padding-bottom: 200px;
     margin-top:-5px;
+    width: 1920px;
+    width:100%;
 }
 .feature-1, .feature-2{
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
-.feature-1-left {
+.feature-1-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border:1px transparent #3e4348;
     width: 500px;
-    height: 600px;
+    height: 500px;
     padding:20px;
     font-family:'poppins';
     background-image: url('img/reddots.png');
     background-position: center;
-
-    box-shadow:inset 0px 0px 10px 10px #141416;
+    box-shadow:inset 0px 0px 20px 20px #141416;
 }
 
-.feature-1-left-1{
+.feature-1-img-header{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     max-width: 400px;
 }
 
-.feature-1-right{
+.feature-1-quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
     border:1px transparent #3e4348;
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding:20px 60px 20px 60px;
     font-family:'poppins';
 }
 
-.feature-1-right-1, .feature-1-right-2,.feature-1-right-3,.feature-1-right-4{
+.feature-1-quote-1, .feature-1-quote-2,.feature-1-quote-3,.feature-1-quote-4{
     font-family: 'Poppins', sans-serif;
     font-weight:300;
     font-size:18px;
     max-width: 400px;
 }
 
-/**** start of pd pics ***/
-.pd-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    padding:100px 10px 100px 10px;
-}
-.pd3{
-    margin-top:-150px;
-}
-
-/**** end of pd pics ***/
-
-.feature-2-left{
+.feature-2-img{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border:1px solid #3e4348;
+    border:1px transparent #3e4348;
     width: 500px;
-    height: 600px;
+    height: 500px;
     padding:20px;
     font-family:'poppins';
+    order:2;
+    background-image: url(img/bluedots.jpeg);
+    background-position: center;
+    box-shadow:inset 0px 0px 20px 20px #141416;
 }
-.feature-2-left-1{
+.feature-2-img-header{
     font-size: 30px;
     font-weight: 700;
 }
-.feature-2-left-2{
+.feature-2-img-p{
     font-family: 'Poppins', sans-serif;
     font-weight:300;
     font-size:18px;
 }
-.feature-2-right{
+.feature-2-bubbles{
     border:1px transparent #3e4348;
     width: 500px;
-    height: 600px;
+    height: 500px;
     padding:20px;
     font-family:'poppins';
     align-items: center;
+    order:1;
+    display: flex;
+    justify-content: space-around;
+}
+.feature-2-bb12{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
 }
 .feature-2-bb1,.feature-2-bb2,.feature-2-bb3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 200px;
+    width: 220px;
     border: 1px solid #3e4348;
     background-color: #1a1c1e;
     border-radius: 10px;
     position: relative;
 }
-.feature-2-bb1{
-    left:20px;
-    top:30px;
-}
-.feature-2-bb2{
-    left:20px;
-    top:60px;
-}
-.feature-2-bb3{
-    left:240px;
-    top:-350px;
-}
+
 .feature-2-bb1 p,.feature-2-bb2 p,.feature-2-bb3 p{
     padding:15px;
     color:lightslategray;
@@ -218,12 +206,62 @@ body{
     font-size: 12px;
 }
 .feature-2-bb1 .bb1-header,.feature-2-bb2 .bb2-header,.feature-2-bb3 .bb3-header{
-    color:palevioletred;
+    color:#899cea;
     font-style: italic;
     font-size:18px;
 }
-
 /* end of product features*/
+
+
+/**** start of pd pics ***/
+.pd-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    padding-bottom: 100px;
+    background-color: #141416;
+    color:white;
+    max-width: 1920px;
+    width:100%;
+}
+.pd1{
+    display: flex;
+    justify-content: center;
+}
+.pd2, .pd3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pd2-text,.pd3-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+}
+.pd2-header,.pd3-header{
+    font-size: 30px;
+    font-weight:700;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700 ;
+}
+.pd2-p,.pd3-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    font-size:18px;
+}
+
+.pd3-text{
+    order:2;
+}
+.pd3-img{
+    order:1;
+}
+/**** end of pd pics ***/
+
+
   
 /* team section */
 .team-container{
@@ -231,16 +269,18 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #141416;
-    font-family: 'open sans';
+    font-family: 'poppins';
     padding-bottom: 100px;
     padding-top:20px;
+    width: 1920px;
+    width:100%;
 }
 .team-h1{
     display: flex;
     justify-content: center;
     color:white;
-    font-family: 'open sans';
-    font-weight: 600;
+    font-family: 'poppins';
+    font-weight: 700;
 
 }
 .team-roster{
@@ -261,6 +301,8 @@ body{
     background-color: #141416;
     padding-top: 20px;
     padding-bottom:50px;
+    width: 1920px;
+    width:100%;
 }
 .footer-logo{
     display: flex;
