@@ -274,6 +274,7 @@ body{
     padding-top:20px;
     width: 1920px;
     width:100%;
+    margin-top:-10px;
 }
 .team-h1{
     display: flex;
@@ -303,6 +304,7 @@ body{
     padding-bottom:50px;
     width: 1920px;
     width:100%;
+    margin-top: -10px;
 }
 .footer-logo{
     display: flex;
