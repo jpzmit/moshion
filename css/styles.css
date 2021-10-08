@@ -93,31 +93,10 @@
   font-family: 'open sans',sans-serif;
 }
 
-.feature-2-bubbles{
-  border:1px transparent #3e4348;
-  width: 500px;
-  height: 500px;
-  padding-left:40px;
-  font-family: 'open sans',sans-serif;
-  align-items: center;
-  order:1;
-  display: flex;
-  justify-content: space-around;
-}
-.feature-2-bb12{
-  display:flex;
-  flex-direction: column;
-  gap:30px;
-}
 .feature-2-bb1,.feature-2-bb2,.feature-2-bb3{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 220px;
   border: 1px solid #3e4348;
   background-color: #1a1c1e;
   border-radius: 10px;
-  position: relative;
 }
 
 .feature-2-bb1 p,.feature-2-bb2 p,.feature-2-bb3 p{
