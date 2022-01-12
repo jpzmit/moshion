@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
+app.use(express.static('moshion'));
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:true}));
 
