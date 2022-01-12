@@ -20,6 +20,9 @@ app.set('view engine','ejs');
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/index.html');
 });
+app.get('/thankyou', (req,res)=>{
+    res.sendFile(__dirname + '/thankyou.html');
+});
 
 app.get('/idm',(req,res)=>{
     contact.find({},(err,contact)=>{
@@ -36,7 +39,7 @@ app.post("/",(req, res)=>{
         Email: req.body.Email,
     })
     newContact.save();
-    res.redirect("/");
+    res.redirect('/thankyou');
 });
 
 app.listen(8080, ()=>{
