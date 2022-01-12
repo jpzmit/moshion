@@ -21,7 +21,7 @@ app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/show',(req,res)=>{
+app.get('/idm',(req,res)=>{
     contact.find({},(err,contact)=>{
         res.render('index',{
             contactlist: contact
