@@ -24,15 +24,22 @@
 
 .feature-1-left {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  font-size: xx-large;
+  flex-direction: column;
   border: 1px transparent #3e4348;
   background-position: center;
   box-shadow: inset 0px 0px 20px 20px #141416;
   background-image: url(../assets/img/bluedots.jpeg);
+  font-family: "open sans", sans-serif;
+}
+
+.feature-1-left2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  background-position: center;
   font-family: "open sans", sans-serif;
 }
 
