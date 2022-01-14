@@ -24,6 +24,10 @@ app.get('/thankyou', (req,res)=>{
     res.sendFile(__dirname + '/thankyou.html');
 });
 
+app.get('/dashboard', (req,res)=>{
+    res.sendFile(__dirname + '/dashboard.html');
+});
+
 app.get('/idm',(req,res)=>{
     contact.find({},(err,contact)=>{
         res.render('index',{
