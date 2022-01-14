@@ -17,7 +17,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!--link href="css/mystyles.css" rel="styleshet" /-->
+        <!--link href="css/mystyles.css" rel="stylesheet" /-->
         <!-- link href="css/mystyles.css" rel="stylesheet" /-->
     </head>
 
@@ -47,11 +47,11 @@
 
         //update matrix data
         const sensordata = ref(db, 'test_user');
-        for (let i = 1; i < 5; i++){    
+        for (let i = 1; i < 9; i++){    
             const sensordata_row1 = ref(db, 'test_user/row'+i);
             onValue(sensordata_row1, (snapshot) => {
                     const childVal = snapshot.val();
-                    for (let j = 1; j < 5; j++) {
+                    for (let j = 1; j < 9; j++) {
                          document.getElementById("row"+ i + "col" + j).innerHTML=childVal["col"+j];
                             if (childVal["col"+j] > 1500){
                             document.getElementById("row"+ i + "col" + j).style.backgroundColor = "red";
