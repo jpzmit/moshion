@@ -6,7 +6,7 @@ var colVariable = ["col1", "col2","col3","col4"];
 var colLength = colVariable.length;
 
 var addRow = document.createDocumentFragment(); 
-for (var i = 5; i >1; i--) {
+for (var i = 4; i >0; i--) {
     rowtemp = document.createElement('div');
     rowtemp.className = 'd-flex flex-row justify-content-center';
     rowtemp.id = rowVariable[i];   
