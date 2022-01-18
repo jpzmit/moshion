@@ -28,6 +28,10 @@ app.get('/dashboard', (req,res)=>{
     res.sendFile(__dirname + '/dashboard.html');
 });
 
+app.get('/prototype2', (req,res)=>{
+    res.sendFile(__dirname + '/prototype2.html');
+});
+
 app.get('/idm',(req,res)=>{
     contact.find({},(err,contact)=>{
         res.render('index',{

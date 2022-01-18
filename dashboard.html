@@ -53,10 +53,10 @@
                     const childVal = snapshot.val();
                     for (let j = 1; j < 9; j++) {
                          document.getElementById("row"+ i + "col" + j).innerHTML=childVal["col"+j];
-                            if (childVal["col"+j] > 100){
+                            if (childVal["col"+j] > 400){
                             document.getElementById("row"+ i + "col" + j).style.backgroundColor = "red";
                             }
-                            else if (childVal["col"+j] < 100 && childVal["col"+j] >20){
+                            else if (childVal["col"+j] < 400 && childVal["col"+j] >200){
                                 document.getElementById("row"+ i + "col" + j).style.backgroundColor = "orange";
                             } 
                             else {
